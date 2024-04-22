@@ -32,7 +32,7 @@ for file in os.listdir(directory):
         filepath = parent_dir + "/" + filename
         print("Found PDF file: ", filepath)
  
-        #read PDF files using Py2PDF
+        #read PDF files using PyPDF2
         reader = PdfReader(filepath)
 
 
