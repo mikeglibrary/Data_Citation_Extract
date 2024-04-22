@@ -28,7 +28,7 @@ for file in os.listdir(directory):
     filename = os.fsdecode(file)
     if filename.endswith('.pdf'): 
         
-        #identifying found PDF files
+        #identify found PDF files
         filepath = parent_dir + "/" + filename
         print("Found PDF file: ", filepath)
  
