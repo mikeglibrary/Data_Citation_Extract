@@ -5,3 +5,7 @@ This is a simple Python script to extract the data citations from all the PDFs s
 # How to Use
 
 After running the script, you will be prompted to enter the directory where your PDF files are stored. Once you enter the directory, the script will begin searching for data set citations within all the PDF files it finds in the directory.
+
+# Acknowledgements
+
+The development of this script was funded by a Concordia University Library (https://library.concordia.ca/) research grant.
