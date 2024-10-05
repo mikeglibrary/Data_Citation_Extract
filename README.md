@@ -12,4 +12,4 @@ This script relies on the PyPDF2 (https://pypdf2.readthedocs.io/en/3.0.0/user/ex
 
 # Acknowledgements
 
-The development of this script was funded by a Concordia University Library (https://library.concordia.ca/) research grant.
+The development of this script was funded by a Concordia University Library (https://library.concordia.ca/) research grant. The code in this repository was primarily written by Concordia student Raeika Maroufi, with some additional coding done by Michael Groenendyk. 
