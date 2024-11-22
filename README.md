@@ -10,7 +10,7 @@ The file, specific_repositories_datacite.py, checks DOIs specific to data reposi
 
 # How to Use
 
-After running one of the DOI extraction scripts, you will be prompted to enter the directory where your PDF files are stored. Once you enter the directory, the script will begin searching for data set citations within the PDF files stored in this directory.
+After running one of the DOI extraction scripts, you will be prompted to enter the directory where your PDF files are stored. Once you enter the directory, the script will begin searching for data set citations linked to DataCite within the PDF files stored in this directory.
 
 # Requirements
 
