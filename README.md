@@ -1,6 +1,6 @@
 # Data Citation Extraction Scripts
 
-Three simple Python scripts that extract the DOIs from academic article PDFs and then verifies whether the DOIs reference data whose metadata is available through the DataCite API. If metadata is available through the DataCite API, corresponding metadata is downloaded to a CSV file. 
+Three simple Python scripts that extract the DOIs from academic article PDFs and then verify whether the DOIs reference data whose metadata is available through the DataCite API. If metadata is available through the DataCite API, corresponding metadata is downloaded to a CSV file. 
 
 The file, all_dois_datacite.py, checks all DOIs in an academic article against the DataCite API.
 
