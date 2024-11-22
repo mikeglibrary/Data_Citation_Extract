@@ -1,6 +1,12 @@
-# Data Citation Extraction Script (Early First Draft - Very Rough Work in Progress - Finalized Version Coming Soon)
+# Data Citation Extraction Scripts
 
-This is a simple Python script to extract the data citations from all academic article PDFs saved in a specific directory. The script uses the Data Cite API to download the metadata for each cited data set and then prints this metadata to a CSV file.  
+Three simple Python scripts that extract the DOIs from academic article PDFs and then verifies whether the DOIs reference data whose metadata is available through the DataCite API. If metadata is available through the DataCite API, corresponding metadata is downloaded to a CSV file. 
+
+The file, all_dois_datacite.py, checks all DOIs in an academic article against the DataCite API.
+
+The file, datacite_dois_datacite.py, checks only DOIs commonly used by DataCite against the DataCite API (10.5060 or 10.34960).  
+
+The file, specific_repositories_datacite.py, checks DOIs specific to data repositories such as Zenodo. Repositories can be added or removed within the data_url_keywords variable on line 48.
 
 # How to Use
 
