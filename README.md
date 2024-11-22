@@ -6,7 +6,7 @@ The file, all_dois_datacite.py, checks all DOIs in an academic article against t
 
 The file, datacite_dois_datacite.py, checks only DOIs commonly used by DataCite against the DataCite API (10.5060 or 10.34960).  
 
-The file, specific_repositories_datacite.py, checks DOIs specific to data repositories such as Zenodo. Repositories can be added or removed within the data_url_keywords variable on line 48.
+The file, specific_repositories_datacite.py, checks DOIs specific to data repositories such as Zenodo. Repositories can be added or removed using the data_url_keywords variable on line 48 of the script.
 
 # How to Use
 
