@@ -4,7 +4,7 @@ Three simple Python scripts that extract the DOIs from academic article PDFs and
 
 The file, all_dois_datacite.py, checks all DOIs in an academic article against the DataCite API.
 
-The file, datacite_dois_datacite.py, checks only DOIs commonly used by DataCite against the DataCite API (10.5060 and 10.34960), and is the recommended file to use.   
+The file, datacite_dois_datacite.py, checks only DOIs commonly used by DataCite against the DataCite API (10.5060 and 10.34960), and is the recommended file to use. If you aren't comfortable using Python, the script can also be run via the executable file, datacite.exe.    
 
 The file, specific_repositories_datacite.py, checks DOIs specific to data repositories such as Zenodo. Repositories can be added or removed using the data_url_keywords variable on line 48 of the script.
 
